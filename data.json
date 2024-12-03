@@ -1,0 +1,93 @@
+{
+    "journal": {
+      "name": "E-Mobility Focus",
+      "slogan": "Le site d'actualité dédié à la mobilité électrique et durable",
+      "texteAppelAction": "Abonnez-vous à notre newsletter pour tout savoir sur les dernières innovations",
+      "mainArticle": {
+        "titre": "BYD : Une nouvelle ère sur le marché européen",
+        "description": "Le géant chinois bouleverse le secteur avec des véhicules électriques performants et abordables.",
+        "date": "1er Décembre 2024",
+        "theme": "Innovation",
+        "image": "images/image.png"
+      },
+      "articles": [
+        {
+          "titre": "Nio ET5 : Le coupé électrique chinois qui séduit l'Europe",
+          "date": "28 Novembre 2024",
+          "theme": "Design",
+          "image": "images/image.png"
+        },
+        {
+          "titre": "Xpeng G9 : Le SUV haut de gamme qui vise Tesla en Europe",
+          "date": "20 Novembre 2024",
+          "theme": "Performance",
+          "image": "images/image.png"
+        },
+        {
+          "titre": "Zeekr arrive en France avec des prix agressifs",
+          "date": "15 Novembre 2024",
+          "theme": "Marché",
+          "image": "images/image.png"
+        },
+        {
+          "titre": "MG4 : Une compacte électrique qui monte en puissance",
+          "date": "5 Novembre 2024",
+          "theme": "Accessibilité",
+          "image": "images/image.png"
+        },
+        {
+          "titre": "La stratégie d'expansion européenne de Geely dévoilée",
+          "date": "1er Novembre 2024",
+          "theme": "Stratégie",
+          "image": "images/image.png"
+        }
+      ],
+      "themes": [
+        {
+          "nom": "Innovation",
+          "description": "Découvrez les dernières avancées technologiques dans le domaine de la mobilité électrique."
+        },
+        {
+          "nom": "Design",
+          "description": "Explorez les styles audacieux et les concepts innovants des constructeurs."
+        },
+        {
+          "nom": "Performance",
+          "description": "Tout sur les véhicules qui allient puissance et durabilité."
+        },
+        {
+          "nom": "Marché",
+          "description": "Analyses des tendances et de la compétitivité des marques chinoises en Europe."
+        },
+        {
+          "nom": "Accessibilité",
+          "description": "Focus sur les véhicules électriques abordables pour tous."
+        },
+        {
+          "nom": "Stratégie",
+          "description": "Les plans des constructeurs pour conquérir le marché européen."
+        }
+      ],
+      "auteurs": [
+        {
+          "prenom": "Alex",
+          "typeExperience": "Expert innovation",
+          "presentation": "Passionné par la technologie et l'automobile, je décrypte les avancées qui redéfinissent la mobilité électrique."
+        },
+        {
+          "prenom": "Chloé",
+          "typeExperience": "Experte marché",
+          "presentation": "Avec une expertise en commerce international, j'analyse les stratégies des constructeurs chinois sur le marché européen."
+        },
+        {
+          "prenom": "Julien",
+          "typeExperience": "Expert design",
+          "presentation": "Designer automobile et journaliste, je partage mon regard sur les créations marquantes de l'industrie."
+        }
+      ]
+    }
+  }
+  Collapse
+  React
+  Reply
+  Message Gaétane Heiderich

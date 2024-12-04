@@ -129,11 +129,11 @@ function displayMainArticles(mainArticle, mainArticleContainer) {
       <div class="main-image">
         <img class="header-img" src='${thumbnail}'>
       </div>
-      <div class="content">
+      <div class="main-content">
         <h2 class="title">${title}</h2>
         <h3 class="subtitle">${themeTitle} - ${date}</h3>
         <h4 class="content">${description}</h4>
-        <button class="read-more" ><a href="${page}">Lire Plus</a></button>
+        <button class="read-more" ><a href="${page}">Lire l'Article</a></button>
       </div>
     </div>
   `;
@@ -159,7 +159,7 @@ function displayArticles(article, articleContainer) {
       <div class="content">
         <h3 class="title">${title}</h3>
         <p class="subtitle">${themeTitle} - ${date}</p>
-        <button class="read-more" ><a href="${page}">Lire Plus</a></button>
+        <button class="read-more" ><a href="${page}">Lire l'Article</a></button>
       </div>
     </div>
     `;
@@ -189,7 +189,7 @@ function displayFooter(journal, footerContainer) {
   const currentYear = new Date().getFullYear();
 
   let sign = `
-    <div class="title-site">
+    <div class="footer">
       <h4>${journalTitle} - ${currentYear}</h4>
     </div>
   `;

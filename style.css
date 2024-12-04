@@ -11,7 +11,6 @@ html, body {
     background-color: #efeff0;
     gap: 80px;
     height: 100%;
-    padding: 0 2em;
 }
 
 h1{
@@ -25,6 +24,7 @@ h2{
     font-size: 4rem;
     font-weight: 500;
     text-align: center;
+    color: #68b52a;
 }
 
 h3{
@@ -32,7 +32,7 @@ h3{
     font-weight: 400;
 }
 
-h3{
+h4{
     font-size: 1.75rem;
     font-weight: 300;
 }
@@ -43,16 +43,80 @@ p {
 }
 
     /* navbar */
+    #menu {
+        display: flex;
+        height: 80px;
+        padding: 20px 100px;
+        justify-content: space-between;
+        background-color: white;
+        box-shadow: 0px 11px 24px -10px rgba(66, 68, 90, 1);
+     }
+     
+    .navbar {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        list-style: none;
+        margin: 0;
+    }
+
+    .link{
+        color: gray;
+        font-weight: 400;
+        text-decoration: none;
+    }
+     
+    .link:hover{
+        color: #68b52a;
+        font-weight: 600;
+        border-bottom: outset 2px #68b52a;
+        padding-bottom: 2em;
+    }
+
+    #logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+     }
+
+     #logo img {
+        width: 150px;
+        height: 150px;
+     }
+
+    #login {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .loginavatar{
+       width: 50px;
+       height: 50px;
+       border: solid 2px black;
+       border-radius: 100%;
+       object-fit: cover;
+    }
 
     /* header */
     #header {
         display: flex;
         flex-direction: column;
+        padding: 0 6em;
+    }
+
+    #Site-title {
+        display: flex;
+        justify-content: center;
+    }
+
+    #Site-title h4 {
+        text-align: center;
     }
     
     .header-img {
         width: 100%;
-        max-height: 500px;
+        max-height: 400px;
         object-fit: cover;
     }
 
@@ -69,15 +133,26 @@ p {
     #main-article {
         display: flex;
         width: 100%;
+        padding: 0;
     }
 
     .main-article {
         width: 100%;
     }
 
-    .main-content{
+    #bg-content {
+        display: flex;
         padding: 2%;
+        margin: 0 6em;
         background-color: white;
+    }
+
+    .main-content{
+        width: 60%;
+    }
+
+    .main-content h2 {
+        text-align: left;
     }
 
     .content{
@@ -90,6 +165,7 @@ p {
     #other-articles {
         display: flex;
         flex-direction: column;
+        padding: 0 6em;
     }
 
     .other-article{
@@ -113,6 +189,10 @@ p {
     }
 
     /* authors */
+    #writers{
+        padding: 0 6em;        
+    }
+
     #authors {
         display: flex;
         flex-direction: row;
@@ -134,11 +214,12 @@ p {
     #footer {
         display: flex;
         justify-content: center;
-        margin: 40px;
+        background-color: white;
+        width: 100%;
     }
 
     .footer {
-        margin: 40px;
+        color: #68b52a;
     }
 
     .read-more{

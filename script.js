@@ -129,11 +129,13 @@ function displayMainArticles(mainArticle, mainArticleContainer) {
       <div class="main-image">
         <img class="header-img" src='${thumbnail}'>
       </div>
-      <div class="main-content">
-        <h2 class="title">${title}</h2>
-        <h3 class="subtitle">${themeTitle} - ${date}</h3>
-        <h4 class="content">${description}</h4>
-        <button class="read-more" ><a href="${page}">Lire l'Article</a></button>
+      <div id="bg-content">
+        <div class="main-content">
+          <h2 class="title">${title}</h2>
+          <h3 class="subtitle">${themeTitle} - ${date}</h3>
+          <h4 class="content">${description}</h4>
+          <button class="read-more" ><a href="${page}">Lire l'Article</a></button>
+        <div>
       </div>
     </div>
   `;

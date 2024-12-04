@@ -1,6 +1,7 @@
 {
     "journal": {
-      "name": "E-Mobility Focus",
+      "logo": "images/ChinaAutoLogo.png",
+      "name": "China Auto News",
       "slogan": "Le site d'actualité dédié à la mobilité électrique et durable",
       "texteAppelAction": "Abonnez-vous à notre newsletter pour tout savoir sur les dernières innovations",
       "mainArticle": {
@@ -8,38 +9,38 @@
         "description": "Le géant chinois bouleverse le secteur avec des véhicules électriques performants et abordables.",
         "date": "1er Décembre 2024",
         "theme": "Innovation",
-        "image": "images/image.png"
+        "image": "images/byd.webp"
       },
       "articles": [
         {
           "titre": "Nio ET5 : Le coupé électrique chinois qui séduit l'Europe",
           "date": "28 Novembre 2024",
           "theme": "Design",
-          "image": "images/image.png"
+          "image": "images/Nio.webp"
         },
         {
           "titre": "Xpeng G9 : Le SUV haut de gamme qui vise Tesla en Europe",
           "date": "20 Novembre 2024",
           "theme": "Performance",
-          "image": "images/image.png"
+          "image": "images/Xpeng-G9.jpg"
         },
         {
           "titre": "Zeekr arrive en France avec des prix agressifs",
           "date": "15 Novembre 2024",
           "theme": "Marché",
-          "image": "images/image.png"
+          "image": "images/Zeekr.jpg"
         },
         {
           "titre": "MG4 : Une compacte électrique qui monte en puissance",
           "date": "5 Novembre 2024",
           "theme": "Accessibilité",
-          "image": "images/image.png"
+          "image": "images/mg4-electric.webp"
         },
         {
           "titre": "La stratégie d'expansion européenne de Geely dévoilée",
           "date": "1er Novembre 2024",
           "theme": "Stratégie",
-          "image": "images/image.png"
+          "image": "images/geely.webp"
         }
       ],
       "themes": [
@@ -72,22 +73,21 @@
         {
           "prenom": "Alex",
           "typeExperience": "Expert innovation",
-          "presentation": "Passionné par la technologie et l'automobile, je décrypte les avancées qui redéfinissent la mobilité électrique."
+          "presentation": "Passionné par la technologie et l'automobile, je décrypte les avancées qui redéfinissent la mobilité électrique.",
+          "avatar": "images/alex.png"  
         },
         {
           "prenom": "Chloé",
           "typeExperience": "Experte marché",
-          "presentation": "Avec une expertise en commerce international, j'analyse les stratégies des constructeurs chinois sur le marché européen."
+          "presentation": "Avec une expertise en commerce international, j'analyse les stratégies des constructeurs chinois sur le marché européen.",
+          "avatar": "images/chloe.png"
         },
         {
           "prenom": "Julien",
           "typeExperience": "Expert design",
-          "presentation": "Designer automobile et journaliste, je partage mon regard sur les créations marquantes de l'industrie."
+          "presentation": "Designer automobile et journaliste, je partage mon regard sur les créations marquantes de l'industrie.",
+          "avatar": "images/julien.png"
         }
       ]
     }
   }
-  Collapse
-  React
-  Reply
-  Message Gaétane Heiderich

@@ -8,7 +8,7 @@ html, body {
     font-family: "DM Sans", sans-serif;
     font-weight: 500;
     color: #4c606b;
-    background-color: #e5e5e5;
+    background-color: #efeff0;
     gap: 80px;
     height: 100%;
     padding: 0 2em;
@@ -51,7 +51,9 @@ p {
     }
     
     .header-img {
-        max-width: fit-content;
+        width: 100%;
+        max-height: 500px;
+        object-fit: cover;
     }
 
     #themes {
@@ -76,7 +78,6 @@ p {
     .main-content{
         padding: 2%;
         background-color: white;
-        width: 100%;
     }
 
     .content{
@@ -108,7 +109,7 @@ p {
 
     .main-image {
         display: flex;
-        width: 70%;
+        width: 100%;
     }
 
     /* authors */
@@ -141,24 +142,31 @@ p {
     }
 
     .read-more{
-        border-radius: 3px;
+        border-bottom: solid 5px black;
+        border-right: solid 5px black;
         padding: 10px 20px;
-        background-color: greenyellow;
+        background-color: #bdfd88;
     }
 
     .read-more a{
         text-decoration: none;
-        color: green;
+        color: black;
     }
     
     .read-more:hover{
-        background-color: green;
-        border-color: greenyellow;
+        transition: .3s ease-in-out;
+        background-color: #68b52a;
+        border-color: #bdfd88;
+        border-top: solid 5px black;
+        border-left: solid 6px black;
+        border-bottom: solid 1px black;
+        border-right: solid 1px black;
         cursor: hand;
     }
 
     .read-more a:hover{
-        color: greenyellow;
+        transition: .3s ease-in-out;
+        color: #bdfd88;
     }
 
 

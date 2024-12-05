@@ -28,7 +28,7 @@
           "titre": "Zeekr arrive en France avec des prix agressifs",
           "date": "15 Novembre 2024",
           "theme": "Marché",
-          "image": "images/Zeekr.jpg"
+          "image": "images/Zeekr.avif"
         },
         {
           "titre": "MG4 : Une compacte électrique qui monte en puissance",
@@ -74,19 +74,19 @@
           "prenom": "Alex",
           "typeExperience": "Expert innovation",
           "presentation": "Passionné par la technologie et l'automobile, je décrypte les avancées qui redéfinissent la mobilité électrique.",
-          "avatar": "images/alex.png"  
+          "avatar": "images/alex.jpg"  
         },
         {
           "prenom": "Chloé",
           "typeExperience": "Experte marché",
           "presentation": "Avec une expertise en commerce international, j'analyse les stratégies des constructeurs chinois sur le marché européen.",
-          "avatar": "images/chloe.png"
+          "avatar": "images/chloe.jpg"
         },
         {
           "prenom": "Julien",
           "typeExperience": "Expert design",
           "presentation": "Designer automobile et journaliste, je partage mon regard sur les créations marquantes de l'industrie.",
-          "avatar": "images/julien.png"
+          "avatar": "images/julien.jpg"
         }
       ]
     }

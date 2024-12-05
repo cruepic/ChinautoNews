@@ -80,8 +80,9 @@ p {
      }
 
      #logo img {
-        width: 150px;
-        height: 150px;
+        width: 4em;
+        height: auto;
+        color: #68b52a;
      }
 
     #login {
@@ -209,6 +210,9 @@ p {
 
     .avatar {
         width: 20vw;
+        border: dashed 1px black;
+        border-radius: 100%;
+        object-fit: cover;
     }
 
     #footer {

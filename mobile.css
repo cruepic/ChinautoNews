@@ -1,0 +1,154 @@
+@media screen and (max-width: 800px) { 
+
+    html, body {
+        
+    }
+    
+    h1{
+        font-size: xx-large;
+    }
+    
+    h2{
+        font-size: 3rem;
+        font-weight: 500;
+        text-align: center;
+    }
+    
+    h3{
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    
+    h4{
+        font-size: 1.25rem;
+        font-weight: 300;
+    }
+    
+    p {
+        font-size: 1rem;
+        font-weight: 200;
+    }
+    
+    /* navbar */
+
+    #menu {
+        position: relative;
+    }
+
+    #logo {
+        width: 10%;
+        height: 10%;
+    }
+
+    #logo img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .hamburger {
+        display: flex;
+        z-index: 1000;
+    }
+
+    #navbar {
+        position: fixed;
+        left: -100%;
+        top: 0;
+        flex-direction: column;
+        background-color: #f4f4f4;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        padding: 100px 0;
+        z-index: 100;
+    }
+
+    #menu.active {
+        left: 0;
+    }
+
+    /* Hamburger animation */
+
+    .hamburger.active {
+        position: fixed;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+
+
+    #header {
+        padding: 0 5px;
+    }
+
+    #themes {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .theme {
+        width: 48%;
+        gap: 1vw;
+    }
+
+    #bg-content {
+        margin: 0 5px;
+    }
+
+    .main-content {
+        width: 100%;
+    }
+
+    .main-image {
+        height: 200px;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    #other-articles {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0 5px;
+        gap: 2vw;
+    }
+
+    .other-article {
+        display: flex;
+        flex-direction: column;
+        width: 48%;
+    }
+
+    .content {
+        width: 90%;
+        padding: 5%;
+    }
+
+    #writers {
+        padding: 0 5px;
+    }
+
+    #authors {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .author {
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+}

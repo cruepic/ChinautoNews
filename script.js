@@ -151,7 +151,7 @@ function displayArticles(article, articleContainer) {
       </div>
       <div class="content">
         <h3 class="title">${title}</h3>
-        <p class="subtitle">${themeTitle} - ${date}</p>
+        <h4 class="subtitle">${themeTitle} - ${date}</h4>
         <button class="read-more" ><a href="${page}">Lire l'Article</a></button>
       </div>
     </div>
@@ -188,3 +188,12 @@ function displayFooter(journal, footerContainer) {
   `;
   footerContainer.insertAdjacentHTML('beforeend', sign);
  }
+
+ // JavaScript for hamburger menu toggle
+ const hamburger = document.querySelector('.hamburger');
+ const menu = document.getElementById('navbar');
+
+ hamburger.addEventListener('click', () => {
+     hamburger.classList.toggle('active');
+     menu.classList.toggle('active');
+ });

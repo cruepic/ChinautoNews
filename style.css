@@ -38,7 +38,7 @@ h4{
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 200;
 }
 
@@ -63,6 +63,7 @@ p {
     .link{
         color: gray;
         font-weight: 400;
+        font-size: 1.5em;
         text-decoration: none;
     }
      
@@ -70,7 +71,7 @@ p {
         color: #68b52a;
         font-weight: 600;
         border-bottom: outset 2px #68b52a;
-        padding-bottom: 2em;
+        padding-bottom: 1.5em;
     }
 
     #logo {
@@ -119,6 +120,7 @@ p {
         width: 100%;
         max-height: 400px;
         object-fit: cover;
+        object-position: center 70%;
     }
 
     #themes {
@@ -126,7 +128,7 @@ p {
         gap: 2%;
     }
 
-    .themes {
+    .theme {
         gap: 2%;
     }
 

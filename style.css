@@ -52,7 +52,7 @@ p {
         box-shadow: 0px 11px 24px -10px rgba(66, 68, 90, 1);
      }
      
-    .navbar {
+    #navbar {
         display: flex;
         align-items: center;
         gap: 20px;
@@ -102,7 +102,7 @@ p {
     #header {
         display: flex;
         flex-direction: column;
-        padding: 0 6em;
+        padding: 0 4em;
     }
 
     #Site-title {
@@ -143,7 +143,7 @@ p {
     #bg-content {
         display: flex;
         padding: 2%;
-        margin: 0 6em;
+        margin: 0 4em;
         background-color: white;
     }
 
@@ -165,7 +165,7 @@ p {
     #other-articles {
         display: flex;
         flex-direction: column;
-        padding: 0 6em;
+        padding: 0 8em;
     }
 
     .other-article{
@@ -190,7 +190,7 @@ p {
 
     /* authors */
     #writers{
-        padding: 0 6em;        
+        padding: 0 8em;        
     }
 
     #authors {
@@ -219,7 +219,7 @@ p {
     }
 
     .footer {
-        color: #68b52a;
+        color: #6b705c;
     }
 
     .read-more{
@@ -247,7 +247,8 @@ p {
 
     .read-more a:hover{
         transition: .3s ease-in-out;
-        color: #bdfd88;
+        color: white;
+        font-weight: 500;
     }
 
 

@@ -11,9 +11,7 @@ function getData() {
        console.log('Données récupérées du fichier JSON :', data);
        /// ON ECRIT LE CODE ICI ! 
 
-      // Navigation
-      let menuContainer = document.getElementById("menu");
-          // displayMenu(journal, themes, menuContainer);
+      
       // Header
       let siteTitleContainer = document.getElementById('Site-title');
       let journal = data.journal;
@@ -24,7 +22,14 @@ function getData() {
         themes.forEach(theme => {
           displayThemes(theme, themeContainer);
         });
+
+      // Navigation
+      let menuContainer = document.getElementById("navbar");
       
+      themes.forEach(menu => {
+        displayMenu(menu, menuContainer);
+      });
+
       //main article
       let mainArticleContainer = document.getElementById('main-article');
       let mainArticles = data.journal.mainArticle;
@@ -62,24 +67,10 @@ function getData() {
 
  ///ON écrit les fonctions ici
 
-function displayMenu(journal, theme, menuContainer) {
-  let logo = journal.logo
-  let journalTitle = journal.name;
-  let themeName = theme.nom;
+function displayMenu(menu, menuContainer) {
+  let menuName = menu.nom;
   let nav = `
-      <div id="logo" >
-          <a href="#"><img src="${logo}" alt="${journalTitle}"></a>
-      </div>
-
-      <div class="hamburger">
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
-      </div>
-
-      <ul id="menu">
-          <li><a href="#">${themeName}</a></li>
-      </ul>
+      <li><a class="link" href="#">${menuName}</a></li>
   `;
   menuContainer.insertAdjacentHTML('beforeend', nav);
 }

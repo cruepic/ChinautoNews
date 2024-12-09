@@ -5,42 +5,48 @@
       "slogan": "Le site d'actualité dédié à la mobilité électrique et durable",
       "texteAppelAction": "Abonnez-vous à notre newsletter pour tout savoir sur les dernières innovations",
       "mainArticle": {
-        "titre": "BYD : Une nouvelle ère sur le marché européen",
-        "description": "Le géant chinois bouleverse le secteur avec des véhicules électriques performants et abordables.",
-        "date": "1er Décembre 2024",
-        "theme": "Innovation",
-        "image": "images/BYD-Cars.jpg"
+          "titre": "BYD : Une nouvelle ère sur le marché européen",
+          "description": "Le géant chinois bouleverse le secteur avec des véhicules électriques performants et abordables.",
+          "date": "1er Décembre 2024",
+          "theme": "Innovation",
+          "image": "images/BYD-Cars.jpg",
+          "longDescription": "BYD (Build Your Dreams) est un acteur majeur du marché automobile électrique qui redéfinit les normes de l’industrie, en particulier sur le marché européen. Avec des modèles variés alliant performances remarquables et prix accessibles, BYD s’impose comme une alternative sérieuse aux marques occidentales traditionnelles. Cette entreprise chinoise a construit sa réputation grâce à une maîtrise exceptionnelle des technologies de batteries, élément clé de ses véhicules. \n\nL'entrée de BYD sur le marché européen est bien plus qu'une expansion géographique ; c'est une stratégie ambitieuse visant à répondre aux exigences écologiques et aux attentes des consommateurs. Les modèles phares, tels que la BYD Tang et la BYD Han, ont été bien accueillis grâce à leur design moderne, leurs autonomies impressionnantes et des fonctionnalités avancées comme les systèmes d'aide à la conduite. En mettant l'accent sur l'efficacité énergétique et la durabilité, BYD s'aligne avec les réglementations strictes de l'Europe, tout en répondant aux préoccupations croissantes."
       },
       "articles": [
         {
           "titre": "Nio ET5 : Le coupé électrique chinois qui séduit l'Europe",
           "date": "28 Novembre 2024",
           "theme": "Design",
-          "image": "images/Nio.webp"
+          "image": "images/Nio.webp",
+          "longDescription": "Le Nio ET5 est une preuve éclatante que les constructeurs chinois ont atteint une maturité impressionnante en matière de design automobile. Ce coupé électrique, qui attire de plus en plus d’attention en Europe, allie élégance et technologie de pointe. Avec des lignes épurées et un intérieur minimaliste mais fonctionnel, le Nio ET5 redéfinit les attentes des consommateurs pour les véhicules électriques modernes. En explorant les racines de son esthétique, on découvre un mélange harmonieux entre la simplicité scandinave et la sophistication asiatique. Outre son apparence, il offre une autonomie compétitive et des performances impressionnantes, démontrant que le design peut aussi être fonctionnel. Les consommateurs européens, historiquement fidèles aux marques locales, commencent à voir dans Nio une alternative sérieuse, notamment grâce à des initiatives comme les stations de changement de batterie. Le Nio ET5 n’est pas seulement un véhicule, c’est une déclaration audacieuse d’innovation chinoise qui défie les normes établies."
         },
         {
           "titre": "Xpeng G9 : Le SUV haut de gamme qui vise Tesla en Europe",
           "date": "20 Novembre 2024",
           "theme": "Performance",
-          "image": "images/Xpeng-G9.jpg"
+          "image": "images/Xpeng-G9.jpg",
+          "longDescription": "Avec le Xpeng G9, le constructeur chinois entend rivaliser avec Tesla, notamment sur le marché des SUV électriques haut de gamme en Europe. Doté d'une autonomie impressionnante et de technologies avancées comme le système de conduite autonome Xpilot, le G9 est conçu pour séduire les amateurs de véhicules électriques performants. L’esthétique du G9 reflète la robustesse et la modernité, avec des lignes audacieuses et une finition haut de gamme qui rivalisent avec les meilleurs modèles occidentaux. Mais au-delà de ses performances, c'est l'intégration de technologies comme des mises à jour OTA et une interface utilisateur intuitive qui le placent au même niveau, voire au-dessus, de ses concurrents. Le Xpeng G9 incarne l’audace des constructeurs chinois à défier les géants établis, tout en répondant aux attentes élevées des consommateurs européens en matière de durabilité et de luxe."
         },
         {
           "titre": "Zeekr arrive en France avec des prix agressifs",
           "date": "15 Novembre 2024",
           "theme": "Marché",
-          "image": "images/Zeekr.avif"
+          "image": "images/Zeekr.avif",
+          "longDescription": "Zeekr, une marque du groupe Geely, marque son entrée en France avec une stratégie audacieuse de prix compétitifs. Ce positionnement agressif est destiné à bousculer le marché européen des véhicules électriques, dominé par des acteurs bien établis comme Tesla et Volkswagen. En combinant des tarifs abordables avec des véhicules aux performances solides et au design attrayant, Zeekr vise à démocratiser l'accès aux technologies électriques avancées. Les premiers modèles présentés incluent des autonomies impressionnantes et des fonctionnalités haut de gamme, prouvant que prix bas ne rime pas toujours avec compromis sur la qualité. Cette arrivée en France illustre aussi une tendance plus large : l'expansion rapide des marques chinoises en Europe, rendue possible par leur capacité à innover rapidement tout en maintenant des coûts de production compétitifs. Zeekr est donc une marque à surveiller de près dans les mois à venir."
         },
         {
           "titre": "MG4 : Une compacte électrique qui monte en puissance",
           "date": "5 Novembre 2024",
           "theme": "Accessibilité",
-          "image": "images/mg4-electric.webp"
+          "image": "images/mg4-electric.webp",
+          "longDescription": "La MG4 illustre parfaitement comment les constructeurs chinois, tels que MG, s'efforcent de rendre les véhicules électriques accessibles à un plus large public. Ce modèle compact, avec un prix de départ compétitif, offre une autonomie et des performances qui défient les attentes pour son segment. Son design moderne et fonctionnel attire une clientèle variée, des jeunes professionnels aux familles. Mais au-delà de son accessibilité financière, la MG4 met également l'accent sur l'innovation, avec des fonctionnalités telles que des aides à la conduite avancées et un système d'infodivertissement convivial. En Europe, où le coût des véhicules électriques reste un obstacle pour de nombreux consommateurs, la MG4 se positionne comme une solution pratique et économique, tout en répondant aux exigences croissantes en matière de durabilité et de style."
         },
         {
           "titre": "La stratégie d'expansion européenne de Geely dévoilée",
           "date": "1er Novembre 2024",
           "theme": "Stratégie",
-          "image": "images/geely.webp"
+          "image": "images/geely.webp",
+          "longDescription": "Geely, l'un des plus grands constructeurs chinois, dévoile une stratégie ambitieuse pour s'établir comme un acteur majeur en Europe. Cette expansion repose sur plusieurs piliers : des partenariats stratégiques, des investissements dans les infrastructures locales et une gamme de véhicules électriques innovants. En combinant des prix compétitifs avec une technologie de pointe, Geely espère séduire les consommateurs européens tout en surmontant les préjugés concernant les marques chinoises. Une partie intégrante de cette stratégie est de renforcer sa présence sur le marché haut de gamme grâce à ses filiales telles que Polestar et Zeekr. En parallèle, Geely mise sur des initiatives écologiques et des innovations telles que les stations de recharge ultra-rapides pour se différencier. Cette approche multidimensionnelle montre que Geely ne cherche pas simplement à entrer sur le marché européen, mais à y rester en tant que leader."
         }
       ],
       "themes": [

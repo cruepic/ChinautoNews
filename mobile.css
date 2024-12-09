@@ -110,11 +110,9 @@
     }
 
     .main-image {
+        display: flex;
         height: 200px;
-    }
-
-    .content {
-        width: 100%;
+        justify-content: center;
     }
 
     #other-articles {
@@ -136,19 +134,74 @@
         padding: 5%;
     }
 
-    #writers {
+    #authors {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 2vw;
+        padding: 0 10px;
+    }
+
+    .author {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 48%;
+        gap: 2vw;
+    }
+
+    .avatar {
+        min-width: 8em;
+        min-height: auto;
+        max-width: 12em;
+        max-height: auto;
+        border: dashed 1px black;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+
+}
+
+@media screen and (max-width: 560px) {
+    
+    #other-articles {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
         padding: 0 5px;
     }
 
-    #authors {
+    .other-article {
+        display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    .author {
-        width: 100%;
-        flex-wrap: wrap;
-        flex-direction: row;
+    .content {
+        width: 90%;
+        padding: 5%;
     }
 
+    #authors {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+        padding: 0;
+    }
+
+    .author {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 2vw;
+    }
+
+    .avatar {
+        min-width: 10em;
+        min-height: 10em;
+        border: dashed 1px black;
+        border-radius: 100%;
+        object-fit: cover;
+    }
 }

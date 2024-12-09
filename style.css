@@ -194,14 +194,18 @@ p {
 
     /* authors */
     #writers{
-        padding: 0 8em;        
+        display: flex;
+        flex-direction: column;
+        width: 100%;      
     }
 
     #authors {
         display: flex;
         flex-direction: row;
-        width: 100%;
-        gap: 3%
+        width: 84vw;
+        gap: 3%;
+        padding: 0 8vw;
+        align-items: flex-start;
     }
 
     .author {

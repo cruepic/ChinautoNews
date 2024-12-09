@@ -166,10 +166,14 @@ function displayAuthors(author, authorContainer) {
   let authorAvatar = author.avatar;
   let newAuthor = `
     <div class="author">
-      <img class="avatar" src="${authorAvatar}" alt="">
-      <h2 class="author-name">${authorName}</h2>
-      <h3 class="experience">${authorExp}</h3>
-      <p class="description">${authorDesc}</p>
+      <div class="main-image-aut">
+        <img class="avatar" src="${authorAvatar}" alt="">
+      </div>
+      <div class="authors-text">
+        <h2 class="author-name">${authorName}</h2>
+        <h3 class="experience">${authorExp}</h3>
+        <p class="description">${authorDesc}</p>
+      <div>
     <div>
   `;
 
